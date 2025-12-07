@@ -1,0 +1,10 @@
+# Optional Render infra-as-code for a web service
+services:
+  - type: web
+    name: minanjalagar-web
+    env: python
+    plan: free
+    repo: <REPLACE_WITH_GIT_REPO_URL>
+    branch: feature/ui-tamil
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 2
