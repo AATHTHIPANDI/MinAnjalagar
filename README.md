@@ -1,7 +1,8 @@
 # MinAnjalagar
 
 MinAnjalagar is a small Flask web application that uses the Groq LLM to generate professional email drafts from a short subject and tone selection. It provides a clean UI, tone controls, copy/download features, and is ready to deploy to services like Render.
-
+# Try Me
+https://minanjalagar-1.onrender.com
 ## Features
 - Generate professional emails from a subject line
 - Select tone: Professional, Friendly, Formal, Casual
@@ -68,3 +69,4 @@ On Render:
 
 ---
 Made with care — MinAnjalagar
+
